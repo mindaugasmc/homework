@@ -1,0 +1,54 @@
+{
+  "name": "mindaugas_maceika_homework",
+  "version": "1.0.0",
+  "description": "Kayak UI academy homework - create films lists using the movie db API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindaugasmc/homework.git"
+  },
+  "author": "Mindaugas Maceika",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mindaugasmc/homework/issues"
+  },
+  "homepage": "https://github.com/mindaugasmc/homework#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^2.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.9.0",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "nodemon": "^1.19.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
